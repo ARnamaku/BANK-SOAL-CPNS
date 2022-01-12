@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>BANK SOAL TIF - UAD</title>
+  <title>BANK SOAL CPNS</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -63,7 +63,7 @@
       <!-- Brand Logo -->
       <a href="<?= site_url('dashboard') ?>" class="brand-link">
         <img src="<?= base_url() ?>assets//dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">BANK SOAL - UAD</span>
+        <span class="brand-text font-weight-light">BANK SOAL CPNS</span>
       </a>
 
       <!-- Sidebar -->
@@ -87,7 +87,7 @@
               <a href="" class="nav-link active">
                 <i class="nav-icon fas fa-book"></i>
                 <p>
-                  Soal
+                  SOAL CPNS
                   <i class="fas fa-angle-left right"></i>
                 </p>
               </a>

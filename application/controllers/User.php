@@ -112,4 +112,9 @@ class User extends CI_Controller {
 		}
 		echo "<script>window.location='".site_url('user')."';</script>";
 	}
+
+	public function print(){
+		$data['user'] = $this->user_m->tampil_data("user")->result();
+		$this->load->view('print_user', $data);
+	}
 }

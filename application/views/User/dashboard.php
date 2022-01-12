@@ -23,9 +23,11 @@
              <div class="card-header">
                 
                 <div class="pull-right">
+                    <br>
                     <a href="<?=site_url('dashboard/add')?>" class="float-right btn btn-primary btn-flat" >
                         <i class="fa fa-user-plus"></i> Create
                     </a>
+                    <a class="btn btn-danger" href="<?php echo base_url('user/print') ?>"><i class="fa fa-print"></i>print</a>
                 </div>
                 <h3 class="card-title">Data User</h3>
               </div>

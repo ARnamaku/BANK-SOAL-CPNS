@@ -4,11 +4,11 @@
   <div class="container-fluid">
     <div class="row mb-2">
       <div class="col-sm-6">
-        <h1>Kategori Mata Kuliah</h1>
+        <h1>KATEGORI SOAL CPNS</h1>
       </div>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-          <li class="breadcrumb-item active">Kategori Mata Kuliah</li>
+          <li class="breadcrumb-item active">Kategori Soal Cpns</li>
         </ol>
       </div>
     </div>
@@ -27,7 +27,7 @@
                         <i class="fa fa-user-plus"></i> Create
                     </a>
                 </div>
-                <h3 class="card-title">Data Kategori Mata Kuliah</h3>
+                <h3 class="card-title">Data Kategori Soal Cpns</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body p-0"> 
@@ -35,8 +35,8 @@
                     <thead>
                         <tr>
                         <th>no</th>
-                        <th>Nama</th>
-                        <th>Semester</th>
+                        <th>Nama Paket</th>
+                        <th>Tahun Soal</th>
                         </tr>
                     </thead>
 
@@ -47,8 +47,8 @@
                         ?>
                             <tr>
                                 <td><?=$no++?></td>
-                                <td><?=$data->nama_matkul?></td>
-                                <td><?=$data->semester?></td>
+                                <td><?=$data->nama_paket?></td>
+                                <td><?=$data->tahun_soal?></td>
                                 <td> 
                                 <form action="<?=site_url('kategori/del')?>" method="post">
                                   <a href="<?=site_url('kategori/edit/').$data->id_kategori?>" class="btn btn-primary btn-xs">
@@ -80,14 +80,14 @@
                     <form action="<?=site_url('kategori/proses')?>" method="post">
                         <div class="row">
                             <div class="col-md-12">
-                                <label>Nama Mata Kuliah</label>
-                                <input type="text"class="form-control"  name="nama_matkul"  placeholder="Masukkan Nama Matkul...">
+                                <label>Nama Paket</label>
+                                <input type="text"class="form-control"  name="nama_paket"  placeholder="Masukkan Nama Paket...">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <label>Semester</label>
-                                <input type="number"   class="form-control" name="semester" placeholder="Masukkan Semester...">
+                                <label>Tahun Soal</label>
+                                <input type="number"   class="form-control" name="tahun_soal" placeholder="MasukkanTahun Soal...">
                             </div>
                         </div>
                      

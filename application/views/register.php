@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>BANK SOAL TIF UAD</title>
+  <title>BANK CPNS</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,7 +21,7 @@
 <body class="hold-transition register-page">
 <div class="register-box">
   <div class="register-logo">
-    <a href="../../index2.html"><b>BANK SOAL TIF </a>
+    <a href="../../index2.html"><b>BANK CPNS </a>
   </div>
 
   <div class="card">

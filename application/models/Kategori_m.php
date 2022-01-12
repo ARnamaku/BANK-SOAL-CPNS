@@ -13,16 +13,16 @@ class Kategori_m extends CI_Model
     }
     public function tambah_kategori($data){
         $tambah_kategori = array(
-            'nama_matkul' => $data['nama_matkul'],
-            'semester' => $data['semester'],
+            'nama_paket' => $data['nama_paket'],
+            'tahun_soal' => $data['tahun_soal'],
         );
         $this->db->insert('kategori_soal',$tambah_kategori);
     }
     public function edit($data){
         $edit_kategori = array(
             'id_kategori' => $data['id_kategori'],
-            'nama_matkul' => $data['nama_matkul'],
-            'semester' => $data['semester'],
+            'nama_paket' => $data['nama_paket'],
+            'tahun_soal' => $data['tahun_soal'],
         );
         $this->db->set($edit_kategori);
         $this->db->where('id_kategori',$data['id_kategori']);

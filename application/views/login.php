@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>BANK SOAL TIF UAD</title>
+  <title>BANK SOAL CPNS</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,7 +26,7 @@
       <b>
         <h3>BANK SOAL
       </b>
-      <p>TEKNIK INFORMATIKA - UAD</p>
+      <p>CPNS</p>
     </div>
     <!-- /.login-logo -->
     <div class="card">

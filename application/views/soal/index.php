@@ -2,13 +2,14 @@
     <h3><?= $title ?></h3>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb ">
-            <li class="breadcrumb-item"><a>Soal</a></li>
+            <li class="breadcrumb-item"><a>SOAL CPNS</a></li>
             <li class="breadcrumb-item active" aria-current="page">List Data</li>
         </ol>
     </nav>
     <div class="row">
         <div class="col-md-12">
             <a class="btn btn-primary mb-2" href="<?= base_url('soal/tambah'); ?>">Tambah Data</a>
+            
             <div mb-2>
                 <!-- Menampilkan flashh data (pesan saat data berhasil disimpan)-->
                 <?php if ($this->session->flashdata('message')) :
@@ -24,10 +25,10 @@
                                 <tr class="table-success">
                                 <th></th>
                                 <th>action</th>
-                                <th>Mata Kuliah</th>
-                                <th>Semester</th>
+                                <th>Nama Soal</th>
+                                <th>Jenis Soal</th>
                                 <th>Tanggal upload</th>
-                                <th>Dosen Pengampu</th>
+                                <th>Nama Uploader</th>
                                 <th>Tahun</th>
                                 <th>Kategori</th>
                                 <th>File</th>

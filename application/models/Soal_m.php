@@ -16,7 +16,7 @@ class Soal_m extends CI_Model
             'id_user' => $data['iduser'],
             'id_kategori' => $data['id_kategori'],
             'tanggal_upload' => $data['tanggal_upload'],
-            'nama_dosen' => $data['nama_dosen'],
+            'uploader' => $data['uploader'],
             'tahun_ujian' => $data['tahun'],
             'jenis' => $data['jenis'],
             'file' => $data['file'],

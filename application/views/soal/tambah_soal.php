@@ -34,11 +34,11 @@
               <?php echo form_open_multipart('soal/process');?>
               <div class="card-body">
                 <div class="form-group">
-                  <label for="exampleInputnama">Nama Matkul</label>
+                  <label for="exampleInputnama">Nama Soal</label>
                   <select class="form-control" name="id_kategori">
                     <option value="">--Pilih--</option>
                     <?php foreach ($row as $key => $data) { ?>
-                      <option value="<?= $data->id_kategori ?>"><?= $data->nama_matkul ?></option>
+                      <option value="<?= $data->id_kategori ?>"><?= $data->nama_paket ?></option>
                     <?php } ?>
                   </select>
                 </div>
@@ -48,8 +48,8 @@
                 <input type="hidden" name='iduser' value="<?= $this->fungsi->user_login()->id_user ?>">
               
                 <div class="form-group">
-                  <label for="exampleInputdosen">Dosen Pengampu</label>
-                  <input type="text" class="form-control" id="exampleInputdosen" name="nama_dosen" placeholder="masukan nama dosen pengampu">
+                  <label for="exampleInputdosen">Nama Uploader</label>
+                  <input type="text" class="form-control" id="exampleInputdosen" name="uploader" placeholder="masukan nama uploader">
                 </div>
                 <div class="form-group">
                   <label for="exampleInputtahun">Tahun Ujian</label>
@@ -58,10 +58,10 @@
                 <div class="form-group">
                     <label for="exampleInputPassword1">Kategori Soal</label>
                     <br>
-                    <input type="radio" id="UTS" name="jenis" value="UTS">
-                    <label for="satu">Ujian Tengah Semester (UTS)</label>
-                    <br><input type="radio" id="UAS" name="jenis" value="UAS"> 
-                    <label for="dua">Ujian Akhir Semester (UAS)</label>
+                    <input type="radio" id="TIU" name="jenis" value="TIU">
+                    <label for="satu">(TIU)</label>
+                    <br><input type="radio" id="TWK" name="jenis" value="TWK"> 
+                    <label for="dua">(TWK)</label>
                   </div>
                 <div class="form-group">
                   <label for="exampleInputFile">File Soal</label>

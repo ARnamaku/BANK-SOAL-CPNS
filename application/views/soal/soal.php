@@ -4,11 +4,11 @@
   <div class="container-fluid">
     <div class="row mb-2">
       <div class="col-sm-6">
-        <h1>Kategori Mata Kuliah</h1>
+        <h1>SOAL CPNS</h1>
       </div>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-          <li class="breadcrumb-item active">Kategori Mata Kuliah</li>
+          <li class="breadcrumb-item active">Soal Cpns</li>
         </ol>
       </div>
     </div>
@@ -25,9 +25,10 @@
                 <div class="pull-right">
                     <a href="<?=site_url('soal/tambah_soal')?>" class="float-right btn btn-primary btn-flat" >
                         <i class="fa fa-user-plus"></i> Create
+                        <a href="<?=site_url('soal/json')?>" class="btn btn-primary btn-sm m-2"> json </a>
                     </a>
                 </div>
-                <h3 class="card-title">Data Kategori Mata Kuliah</h3>
+                <h3 class="card-title">Data soal cpns</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body"> 
@@ -35,12 +36,12 @@
                     <thead>
                         <tr>
                         <th>no</th>
-                        <th>Nama Matkul</th>
-                        <th>Semester</th>
-                        <th>tanggal_upload</th>
-                        <th>nama dosen</th>
-                        <th>tahun_ujian</th>
-                        <th>Jenis Ujian</th>
+                        <th>Nama Soal</th>
+                        <th>Paket</th>
+                        <th>tanggal upload</th>
+                        <th>nama Uploader</th>
+                        <th>tahun ujian</th>
+                        <th>Jenis Soal</th>
                         <th>File</th>
                         <th>action</th>
                         </tr>
@@ -53,10 +54,10 @@
                         ?>
                             <tr>
                                 <td><?=$no++?></td>
-                                <td><?=$data->nama_matkul?></td>
-                                <td><?=$data->semester?></td>
+                                <td><?=$data->nama_paket?></td>
+                                <td><?=$data->tahun_soal?></td>
                                 <td><?=$data->tanggal_upload?></td>
-                                <td><?=$data->nama_dosen?></td>
+                                <td><?=$data->uploader?></td>
                                 <td><?=$data->tahun_ujian?></td>
                                 <td><?=$data->jenis?></td>
                                 <td><?=$data->file?></td>

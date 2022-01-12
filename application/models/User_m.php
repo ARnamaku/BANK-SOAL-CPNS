@@ -2,6 +2,10 @@
 
 class User_m extends CI_Model
 {
+    public function tampil_data(){
+        return $this->db->get('user');
+    }
+
     public function login($post){
         $this->db->select('*');
         $this->db->from('user');
